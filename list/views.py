@@ -5,3 +5,5 @@ from django.views.generic import TemplateView
 class LOGIN(TemplateView):
     template_name = 'login.html'
 
+class INDEX(TemplateView):
+    template_name = 'index.html'
