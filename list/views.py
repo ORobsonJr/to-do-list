@@ -7,3 +7,7 @@ class LOGIN(TemplateView):
 
 class INDEX(TemplateView):
     template_name = 'index.html'
+
+class custom_404(TemplateView):
+    #temporary 404 page, after we'll make the right changes
+    template_name = '404.html'
